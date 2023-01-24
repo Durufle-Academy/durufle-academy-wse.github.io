@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Maurice Duruflé Academy</title>
+<head>
+	<style>
+		body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+		body, html {
+			height: 100%;
+			color: #bbb;
+			line-height: 1.8;
+		}
+		
+		/* Create a Parallax Effect */
+		.bgimg {
+			background-attachment: fixed;
+			background-position: 50% 120%;;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url('files/piano.jpg');
+			min-height: 450px;
+		}
+		/* Turn off parallax scrolling for tablets and phones */
+		@media only screen and (max-device-width: 1200px) {
+			.bgimg {
+				min-height: 300px;
+			}
+		}
+		
+		body {
+			background-color: #3b4269;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: top;
+			background-size: cover;
+		}
+		
+		.w3-playfair {
+			font-family: Playfair Display;
+		}
+		
+		.w3-trans-1 {
+			background-color: transparent;
+		}
+		
+		.w3-super-jumbo {
+			font-size: 96px;
+		}
+		
+		.w3-dark-indigo {
+			background-color: #3b4269;
+		}
+		
+		.w3-light-indigo {
+			background-color: #b4bced;
+		}
+		
+		.card-color {
+			background-color: #505a8f;
+		}
+		
+		.v-center {
+			position:absolute;
+			top: 0; bottom: 0; left: 0; right: 0;
+			margin: auto;
+			height: 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- NAVIGATION -->
+	<div class="w3-container w3-dark-indigo w3-hide-small">
+		<div class="w3-left">
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-none">
+				<img src="files/duruflesilhouette-white.png" style="width:96px;height:96px"></img>
+			</a>
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber w3-playfair">
+				<span class="w3-xlarge">Maurice Duruflé Academy</span>
+				<br>
+				<span style="padding-top:-40px">Winston-Salem East</span>
+			</a>
+			<a href="about.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber">ABOUT US</a>
+			<a href="services.html" class="w3-bar-item w3-button w3-hover-none w3-text-amber w3-hover-text-grey">SERVICES</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber">CONTACT</a>
+		</div>
+		<span class="w3-bar-item w3-text-white w3-small w3-right" style="text-align:right;">
+			401 E Sprague St, Winston-Salem, NC 27127
+			<br>
+			Call or Text: <a href="tel:3366187768">(336) 618-7768</a>
+		</span>
+	</div>
+	
+	<div class="w3-top">
+		<div class="w3-container w3-dark-indigo w3-hide-large w3-hide-medium">
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber w3-playfair">
+				<span class="w3-xlarge">Maurice Duruflé Academy</span>
+				<br>
+				<span style="padding-top:-40px">Winston-Salem East</span>
+			</a>
+			<a class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber w3-hide-medium w3-hide-large w3-left w3-xlarge" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+				<i class="fa fa-bars"></i>
+			</a>
+			<div id="navDemo" class="w3-bar-block w3-dark-indigo w3-hide w3-hide-large w3-hide-medium"> <!-- Small Screen -->
+				<a href="about.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber" onclick="toggleFunction()">· ABOUT US</a>
+				<a href="services.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber" onclick="toggleFunction()">· SERVICES</a>
+				<a href="contact.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber" onclick="toggleFunction()">· CONTACT</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- MAIN BODY -->
+	<div class="w3-center w3-xlarge w3-wide w3-hide-medium w3-hide-large"><br></div>
+	<div class="bgimg w3-display-container w3-opacity-min">
+		<div class="w3-display-middle">
+			<span class="w3-xxxlarge w3-text-white w3-wide w3-playfair" style="text-shadow: 2px 2px 4px #000000;">Services</span>
+		</div>
+	</div>
+	
+	<div class="w3-row">
+		<div class="w3-col w3-container l2 m1 s0">
+		</div>
+		<div class="w3-col w3-container m10 l8 s12">
+			<div class="w3-container w3-section">
+				<div class="w3-row">
+					<div class="w3-half w3-container">
+						<h1 class="w3-xxlarge w3-playfair w3-text-amber">Lessons</h1>
+						<p>
+							At this location, we currently offer lessons in Piano, Organ, Violin, and Viola. We accept people 
+							of all ages and experience levels as students. Our teachers are all highly trained 
+							and exceptionally qualified, and they all have training in injury-preventative techniques.
+							<br><br>
+							Currently, we offer lessons on Piano, Organ, Violin, and Viola.
+						</p>
+						<ul>
+							<li>30 Minutes: $30</li>
+							<li>45 Minutes: $36</li>
+							<li>60 Minutes: $42</li>
+						</ul>
+						<p>
+							We also offer a <b>five-lesson introductory course to the organ</b> for intermediate-advanced pianists for $150.
+						</p>
+						<a href="contact.html" class="w3-text-amber w3-hover-text-grey">CONTACT US</a> to set up a trial lesson!
+					</div>
+					
+					<div class="w3-half w3-container">
+						<div class="w3-card-4 w3-container card-color w3-section">
+							<img src="files/piano.jpg" class="w3-margin-top w3-margin-bottom" style="width:100%" alt="Music sitting on a grand piano"></img>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="w3-center w3-black w3-text-light-grey w3-padding-16">
+			<p>
+				401 E Sprague St, Winston-Salem, NC 27127
+				<br>
+				Call or Text: <a href="tel:3366187768">(336) 618-7768</a>
+			</p>
+			<p>
+				Website Copyright 2023 Maurice Duruflé Academy, LLC
+				<br>
+				All Rights Reserved
+				<br>
+				Coded by <a href="https://sobel.cc/">Joshua Sobel</a>
+			</p>
+	</footer>
+	
+	<script>
+	// Used to toggle the menu on small screens when clicking on the menu button
+	function toggleFunction() {
+		var x = document.getElementById("navDemo");
+		if (x.className.indexOf("w3-show") == -1) {
+			x.className += " w3-show";
+		} else {
+			x.className = x.className.replace(" w3-show", "");
+		}
+	}
+	</script>
+</body>
+</html>

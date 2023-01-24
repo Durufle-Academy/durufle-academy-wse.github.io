@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Maurice Duruflé Academy</title>
+<head>
+	<style>
+		body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+		body, html {
+			height: 100%;
+			color: #bbb;
+			line-height: 1.8;
+		}
+		
+		/* Create a Parallax Effect */
+		.bgimg {
+			background-attachment: fixed;
+			background-position: 50% 80%;;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url('files/founders.jpg');
+			min-height: 450px;
+		}
+		/* Turn off parallax scrolling for tablets and phones */
+		@media only screen and (max-device-width: 1200px) {
+			.bgimg {
+				min-height: 300px;
+			}
+		}
+		
+		body {
+			background-color: #3b4269;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: top;
+			background-size: cover;
+		}
+		
+		.w3-playfair {
+			font-family: Playfair Display;
+		}
+		
+		.w3-trans-1 {
+			background-color: transparent;
+		}
+		
+		.w3-super-jumbo {
+			font-size: 96px;
+		}
+		
+		.w3-dark-indigo {
+			background-color: #3b4269;
+		}
+		
+		.w3-light-indigo {
+			background-color: #b4bced;
+		}
+		
+		.card-color {
+			background-color: #505a8f;
+		}
+		
+		.v-center {
+			position:absolute;
+			top: 0; bottom: 0; left: 0; right: 0;
+			margin: auto;
+			height: 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- NAVIGATION -->
+	<div class="w3-container w3-dark-indigo w3-hide-small">
+		<div class="w3-left">
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-none">
+				<img src="files/duruflesilhouette-white.png" style="width:96px;height:96px"></img>
+			</a>
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber w3-playfair">
+				<span class="w3-xlarge">Maurice Duruflé Academy</span>
+				<br>
+				<span style="padding-top:-40px">Winston-Salem East</span>
+			</a>
+			<a href="about.html" class="w3-bar-item w3-button w3-hover-none w3-text-amber w3-hover-text-grey">ABOUT US</a>
+			<a href="services.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber">SERVICES</a>
+			<a href="contact.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber">CONTACT</a>
+		</div>
+		<span class="w3-bar-item w3-text-white w3-small w3-right" style="text-align:right;">
+			401 E Sprague St, Winston-Salem, NC 27127
+			<br>
+			Call or Text: <a href="tel:3366187768">(336) 618-7768</a>
+		</span>
+	</div>
+	
+	<div class="w3-top">
+		<div class="w3-container w3-dark-indigo w3-hide-large w3-hide-medium">
+			<a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber w3-playfair">
+				<span class="w3-xlarge">Maurice Duruflé Academy</span>
+				<br>
+				<span style="padding-top:-40px">Winston-Salem East</span>
+			</a>
+			<a class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber w3-hide-medium w3-hide-large w3-left w3-xlarge" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+				<i class="fa fa-bars"></i>
+			</a>
+			<div id="navDemo" class="w3-bar-block w3-dark-indigo w3-hide w3-hide-large w3-hide-medium"> <!-- Small Screen -->
+				<a href="about.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber" onclick="toggleFunction()">· ABOUT US</a>
+				<a href="services.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber" onclick="toggleFunction()">· SERVICES</a>
+				<a href="contact.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-hover-text-amber" onclick="toggleFunction()">· CONTACT</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- MAIN BODY -->
+	<div class="w3-center w3-xlarge w3-wide w3-hide-medium w3-hide-large"><br></div>
+	<div class="bgimg w3-display-container w3-opacity-min">
+		<div class="w3-display-middle">
+			<span class="w3-xxxlarge w3-text-white w3-wide w3-playfair" style="text-shadow: 2px 2px 4px #000000;">About Us</span>
+		</div>
+	</div>
+	
+	<div class="w3-row">
+		<div class="w3-col w3-container l2 m1 s0">
+		</div>
+		<div class="w3-col w3-container m10 l8 s12">
+			<div class="w3-container w3-section">
+				<div class="w3-row">
+					<h1 class="w3-xxlarge w3-playfair w3-text-amber">Our Vision</h1>
+					<p class="w3-text-light-grey">
+						The Maurice Duruflé Academy was founded in 2020 with the goal of reshaping classical music education 
+						at all levels to better fit the needs of twenty-first century students. We emphasize artistic 
+						individuality and holistic musicianship, and strive to cultivate an atmosphere of inspiration and 
+						enrichment in every lesson, concert, and experience.
+						<br>
+						Our founders developed a set of five tenets which inform every aspect of our pedagogy:
+					</p>
+					<ul class="w3-text-light-grey">
+						<li>Everyone has a unique artistic vision worthy of refinement.</li>
+						<li>Anybody can improve at any skill with proper instruction.</li>
+						<li>Musicianship is a holistic skill not limited to playing an instrument.</li>
+						<li>The ability to make music is a practical and useful skill.</li>
+						<li>The goal of music training is always to enrich the life of the student.</li>
+					</ul>
+					<p class="w3-text-light-grey">
+						These five principles might seem obvious, but in many ways, traditional music instruction has ignored 
+						most or all of these for the last several decades. Conservatories have a tendency to value an artificial 
+						construct of “perfection” over a unique artistic vision. Some students are dismissed as simply lacking 
+						talent. Musicianship is treated as something that happens only when an instrument is being played. 
+						Music is looked at as ‘merely an art,’ not as a practical skill. And most detrimentally, progress and 
+						perfection are valued over the enrichment of the student.
+						<br><br>
+						We believe that these negative tendencies have no place in music education, and we founded the Duruflé 
+						Academy to set an example of what classical music training should be. We value our students as humans, 
+						and we view music as a powerful tool for good in the world.
+					</p>
+				</div>
+				
+				<div class="w3-row">
+					<h1 class="w3-xxlarge w3-playfair w3-text-amber">Our History</h1>
+					<p class="w3-text-light-grey">
+						During the early days of the COVID-19 lockdown, Joshua Sobel and Matthew Cates, then organ students 
+						at UNC School of the Arts, founded an online community where music students and enthusiasts could gather, 
+						study, and learn. What began as a small project soon evolved into a busy forum, hosting weekly online 
+						masterclasses by world-renowned musicians, virtual lessons, and lectures.
+						<br><br>
+						Late that year, the founders set their sights on an ambitious target: to completely overhaul classical 
+						music education at every level. With the help and support of Thomas S. Kenan III, and the blessing of 
+						the Duruflé estate, the Duruflé Academy was legally incorporated, and the vision started to become a reality.
+						<br><br>
+						The Duruflé Academy is named for Maurice Duruflé (1902-1986), a French composer, organist, musicologist, 
+						and teacher. His pursuit of artistic excellence in music for the enrichment of the soul was inspiring to 
+						all who knew him. There was a personal element too – Matthew Cates, our CEO, studied his compositions 
+						extensively under the tutelage of Frédéric Blanc, one of Duruflé’s last and most important students.
+						<br><br>
+						An immediate goal of the Academy was to formulate a curriculum framework for music education that was 
+						adaptable enough to suit the most dedicated and advanced students as well as beginners and hobbyists 
+						equally well. Armed with the firm belief that artistry is a natural trait in humanity, we are building 
+						a robust pedagogical foundation incorporating the most cutting edge research in injury-preventative 
+						technique and artistic philosophy.
+						<br><br>
+						Our eventual goal is to establish a top-tier music conservatory where our pedagogical philosophies 
+						may be applied at the very highest levels. 
+					</p>
+				</div>
+				
+				<div class="w3-row">
+					<h1 class="w3-xxlarge w3-playfair w3-text-amber">This Location</h1>
+					<p class="w3-text-light-grey">
+						In 2021, we partnered with Tabernáculo Bautista Agua de Vida in Winston-Salem, NC to open our first 
+						physical location. The beautiful and historic building, once home to Southside Baptist Church, is 
+						the perfect home for our new music school as we expand in size and scope. Joshua Sobel, co-founder 
+						and COO currently serves as the Head Instructor for this location.
+						<br><br>
+						The sanctuary seats about 400 people, and is the primary space for lessons and recitals. It houses 
+						a historic Baldwin grand piano and a two-manual organ by Schantz. The acoustics are intimate and clear. 
+					</p>
+				</div>
+				
+				<div class="w3-row">
+					<h1 class="w3-xxlarge w3-playfair w3-text-amber">Our Team</h1>
+					<div class="w3-row">
+						<div class="w3-third w3-container w3-section">
+							<div class="w3-card-4 w3-container card-color">
+								<img src="files/joshua-sobel.jpg" class="w3-margin-top" style="width:100%;height=100px"></img>
+								<div class="w3-center w3-text-light-grey">
+									<h2>Joshua Sobel</h2>
+									<p>Artistic Director & COO<br>Head Instructor Winston-Salem East<br>Piano and Organ Instructor</p>
+								</div>
+							</div>
+						</div>
+						<div class="w3-third w3-container w3-section">
+							<div class="w3-card-4 w3-container card-color">
+								<img src="files/matthew-cates.jpg" class="w3-margin-top" style="width:100%;height=100px"></img>
+								<div class="w3-center w3-text-light-grey">
+									<h2>Matthew Cates</h2>
+									<p>Artistic Director & CEO<br>Keyboard Technique Specialist<br><br></p>
+								</div>
+							</div>
+						</div>
+						<div class="w3-third w3-container w3-section">
+							<div class="w3-card-4 w3-container card-color">
+								<img src="files/keely-reitman.jpg" class="w3-margin-top" style="width:100%;height=100px"></img>
+								<div class="w3-center w3-text-light-grey">
+									<h2>Keely Reitman</h2>
+									<p>Violin and Viola Instructor<br><br><br></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="w3-center w3-black w3-text-light-grey w3-padding-16">
+			<p>
+				401 E Sprague St, Winston-Salem, NC 27127
+				<br>
+				Call or Text: <a href="tel:3366187768">(336) 618-7768</a>
+			</p>
+			<p>
+				Website Copyright 2023 Maurice Duruflé Academy, LLC
+				<br>
+				All Rights Reserved
+				<br>
+				Coded by <a href="https://sobel.cc/">Joshua Sobel</a>
+			</p>
+	</footer>
+	
+	<script>
+	// Used to toggle the menu on small screens when clicking on the menu button
+	function toggleFunction() {
+		var x = document.getElementById("navDemo");
+		if (x.className.indexOf("w3-show") == -1) {
+			x.className += " w3-show";
+		} else {
+			x.className = x.className.replace(" w3-show", "");
+		}
+	}
+	</script>
+</body>
+</html>
